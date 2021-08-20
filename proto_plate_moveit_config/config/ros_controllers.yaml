@@ -27,6 +27,7 @@ controller_list:
     default: True
     type: FollowJointTrajectory
     joints:
+      - base_joint
       - Rev1
       - Rev2
       - Rev3
