@@ -5,4 +5,4 @@ There are two types of URDF files, first one is "_description" files that are ex
 
 In order for "proto.launch" file to work correctly ROSserial must be installed.
 
-Models inlcuding .stl, .step, and simplified files will be uploaded at a later time.
+Models are in .stp, .stl and .ipt formants and do not include assemblies.
