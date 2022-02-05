@@ -1,0 +1,13 @@
+controller_list:
+  - name: fake_Proto_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - Rev1
+      - Rev2
+      - Rev3
+      - Rev4
+      - Rev5
+      - Rev6
+initial:  # Define initial robot poses per group
+  - group: Proto
+    pose: Home
