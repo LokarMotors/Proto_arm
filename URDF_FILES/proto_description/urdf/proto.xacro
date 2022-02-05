@@ -6,8 +6,8 @@
 <xacro:include filename="$(find proto_description)/urdf/proto.gazebo" />
 <link name="base_link">
   <inertial>
-    <origin rpy="0 0 0" xyz="0.0007396603431784512 0.037367737793665874 0.0013878010935248365"/>
-    <mass value="0.2761464007003608"/>
+    <origin rpy="0 0 0" xyz="0.0007396603431815715 -1.2109763603965092e-05 0.03660197662963566"/>
+    <mass value="0.2761464007003995"/>
     <inertia ixx="0.000757" ixy="0.0" ixz="-4e-06" iyy="0.000761" iyz="0.0" izz="0.001272"/>
   </inertial>
   <visual>
@@ -27,19 +27,19 @@
 
 <link name="Shoulder_link_v1_1">
   <inertial>
-    <origin rpy="0 0 0" xyz="0.0011476357530529025 0.001325578173948995 0.03670020559263422"/>
+    <origin rpy="0 0 0" xyz="0.0011476357530529548 0.0013257306166784657 0.036700381128999024"/>
     <mass value="0.19813823002340522"/>
     <inertia ixx="0.0001" ixy="2e-06" ixz="1e-06" iyy="0.000138" iyz="-2e-06" izz="0.00013"/>
   </inertial>
   <visual>
-    <origin rpy="0 0 0" xyz="0.0 -0.03738 -0.035036"/>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.07025"/>
     <geometry>
       <mesh filename="package://proto_description/meshes/Shoulder_link_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin rpy="0 0 0" xyz="0.0 -0.03738 -0.035036"/>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.07025"/>
     <geometry>
       <mesh filename="package://proto_description/meshes/Shoulder_link_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -48,19 +48,19 @@
 
 <link name="Short_link_v1_1">
   <inertial>
-    <origin rpy="0 0 0" xyz="-0.05563727015166489 0.05590106166689485 0.030359752410106702"/>
+    <origin rpy="0 0 0" xyz="0.0258118102689577 0.06734796603991125 0.030359927946473478"/>
     <mass value="0.2810513090866386"/>
     <inertia ixx="0.000386" ixy="2e-06" ixz="4e-06" iyy="0.000345" iyz="-9.4e-05" izz="0.000487"/>
   </inertial>
   <visual>
-    <origin rpy="0 0 0" xyz="-0.045255 -0.04374 -0.073086"/>
+    <origin rpy="0 0 0" xyz="0.035897 0.005045 -0.1083"/>
     <geometry>
       <mesh filename="package://proto_description/meshes/Short_link_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin rpy="0 0 0" xyz="-0.045255 -0.04374 -0.073086"/>
+    <origin rpy="0 0 0" xyz="0.035897 0.005045 -0.1083"/>
     <geometry>
       <mesh filename="package://proto_description/meshes/Short_link_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -69,19 +69,19 @@
 
 <link name="Long_link_v1_1">
   <inertial>
-    <origin rpy="0 0 0" xyz="0.04669160585887876 0.0017375520866078076 0.07135750412325602"/>
+    <origin rpy="0 0 0" xyz="0.04617094632274027 0.00544238962844841 0.0715089075148111"/>
     <mass value="0.2311934009151251"/>
-    <inertia ixx="0.00038" ixy="-1.9e-05" ixz="8e-06" iyy="0.000505" iyz="2.2e-05" izz="0.000243"/>
+    <inertia ixx="0.00038" ixy="-1.8e-05" ixz="1e-05" iyy="0.000507" iyz="8e-06" izz="0.000242"/>
   </inertial>
   <visual>
-    <origin rpy="0 0 0" xyz="0.056505 -0.11071 -0.110614"/>
+    <origin rpy="0 0 0" xyz="0.056505 -0.07333 -0.145829"/>
     <geometry>
       <mesh filename="package://proto_description/meshes/Long_link_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin rpy="0 0 0" xyz="0.056505 -0.11071 -0.110614"/>
+    <origin rpy="0 0 0" xyz="0.056505 -0.07333 -0.145829"/>
     <geometry>
       <mesh filename="package://proto_description/meshes/Long_link_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -90,19 +90,19 @@
 
 <link name="Shoulder_link_v1__1__1">
   <inertial>
-    <origin rpy="0 0 0" xyz="0.00175640546309337 -0.002826781192222877 0.036591474285280534"/>
+    <origin rpy="0 0 0" xyz="0.0014892689929757522 -0.0009262121111986016 0.03669988277157421"/>
     <mass value="0.19813823002340522"/>
-    <inertia ixx="0.000138" ixy="4e-06" ixz="-1e-06" iyy="0.0001" iyz="-3e-06" izz="0.00013"/>
+    <inertia ixx="0.000138" ixy="4e-06" ixz="-2e-06" iyy="0.0001" iyz="-1e-06" izz="0.00013"/>
   </inertial>
   <visual>
-    <origin rpy="0 0 0" xyz="0.010398 -0.111363 -0.220713"/>
+    <origin rpy="0 0 0" xyz="0.011201 -0.079697 -0.256079"/>
     <geometry>
       <mesh filename="package://proto_description/meshes/Shoulder_link_v1__1__1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin rpy="0 0 0" xyz="0.010398 -0.111363 -0.220713"/>
+    <origin rpy="0 0 0" xyz="0.011201 -0.079697 -0.256079"/>
     <geometry>
       <mesh filename="package://proto_description/meshes/Shoulder_link_v1__1__1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -111,19 +111,19 @@
 
 <link name="Long_link_v1__1__1">
   <inertial>
-    <origin rpy="0 0 0" xyz="0.04995397852609285 0.062337217677337325 0.02989481784852621"/>
+    <origin rpy="0 0 0" xyz="0.04880754986945039 0.06352496495431187 0.029281632440641747"/>
     <mass value="0.2311934009151251"/>
-    <inertia ixx="0.00028" ixy="-1.5e-05" ixz="-8.8e-05" iyy="0.000377" iyz="-2.8e-05" izz="0.000472"/>
+    <inertia ixx="0.000287" ixy="-1.8e-05" ixz="-9.5e-05" iyy="0.000375" iyz="-2.5e-05" izz="0.000466"/>
   </inertial>
   <visual>
-    <origin rpy="0 0 0" xyz="-0.003232 -0.065749 -0.256349"/>
+    <origin rpy="0 0 0" xyz="-0.002248 -0.035707 -0.294129"/>
     <geometry>
       <mesh filename="package://proto_description/meshes/Long_link_v1__1__1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin rpy="0 0 0" xyz="-0.003232 -0.065749 -0.256349"/>
+    <origin rpy="0 0 0" xyz="-0.002248 -0.035707 -0.294129"/>
     <geometry>
       <mesh filename="package://proto_description/meshes/Long_link_v1__1__1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -132,19 +132,19 @@
 
 <link name="Plate_link_v1_1">
   <inertial>
-    <origin rpy="0 0 0" xyz="0.00899385521040827 0.0034194741383326566 -0.0005350632260118227"/>
+    <origin rpy="0 0 0" xyz="0.00901400403018704 0.003393472892842142 -0.00031020971946160714"/>
     <mass value="0.014389707710093135"/>
-    <inertia ixx="5e-06" ixy="0.0" ixz="1e-06" iyy="3e-06" iyz="0.0" izz="3e-06"/>
+    <inertia ixx="5e-06" ixy="1e-06" ixz="1e-06" iyy="3e-06" iyz="0.0" izz="4e-06"/>
   </inertial>
   <visual>
-    <origin rpy="0 0 0" xyz="-0.087233 -0.136856 -0.302564"/>
+    <origin rpy="0 0 0" xyz="-0.084427 -0.108672 -0.340722"/>
     <geometry>
       <mesh filename="package://proto_description/meshes/Plate_link_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin rpy="0 0 0" xyz="-0.087233 -0.136856 -0.302564"/>
+    <origin rpy="0 0 0" xyz="-0.084427 -0.108672 -0.340722"/>
     <geometry>
       <mesh filename="package://proto_description/meshes/Plate_link_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -152,45 +152,45 @@
 </link>
 
 <joint name="Rev1" type="continuous">
-  <origin rpy="0 0 0" xyz="0.0 0.03738 0.035036"/>
+  <origin rpy="0 0 0" xyz="0.0 0.0 0.07025"/>
   <parent link="base_link"/>
   <child link="Shoulder_link_v1_1"/>
-  <axis xyz="-0.0 0.0 1.0"/>
+  <axis xyz="0.0 0.0 1.0"/>
 </joint>
 
 <joint name="Rev2" type="continuous">
-  <origin rpy="0 0 0" xyz="0.045255 0.00636 0.03805"/>
+  <origin rpy="0 0 0" xyz="-0.035897 -0.005045 0.03805"/>
   <parent link="Shoulder_link_v1_1"/>
   <child link="Short_link_v1_1"/>
   <axis xyz="-0.990268 -0.139173 0.0"/>
 </joint>
 
 <joint name="Rev3" type="continuous">
-  <origin rpy="0 0 0" xyz="-0.10176 0.06697 0.037528"/>
+  <origin rpy="0 0 0" xyz="-0.020608 0.078375 0.037529"/>
   <parent link="Short_link_v1_1"/>
   <child link="Long_link_v1_1"/>
-  <axis xyz="0.990268 0.139173 0.0"/>
+  <axis xyz="0.990268 0.139173 -0.0"/>
 </joint>
 
 <joint name="Rev4" type="continuous">
-  <origin rpy="0 0 0" xyz="0.046107 0.000653 0.110099"/>
+  <origin rpy="0 0 0" xyz="0.045304 0.006367 0.11025"/>
   <parent link="Long_link_v1_1"/>
   <child link="Shoulder_link_v1__1__1"/>
-  <axis xyz="0.007284 -0.051827 0.99863"/>
+  <axis xyz="0.0 -0.0 1.0"/>
 </joint>
 
 <joint name="Rev5" type="continuous">
-  <origin rpy="0 0 0" xyz="0.01363 -0.045614 0.035636"/>
+  <origin rpy="0 0 0" xyz="0.013449 -0.04399 0.03805"/>
   <parent link="Shoulder_link_v1__1__1"/>
   <child link="Long_link_v1__1__1"/>
-  <axis xyz="-0.292183 0.954964 0.051692"/>
+  <axis xyz="-0.292372 0.956305 0.0"/>
 </joint>
 
 <joint name="Rev6" type="continuous">
-  <origin rpy="0 0 0" xyz="0.084001 0.071107 0.046215"/>
+  <origin rpy="0 0 0" xyz="0.082179 0.072965 0.046593"/>
   <parent link="Long_link_v1__1__1"/>
   <child link="Plate_link_v1_1"/>
-  <axis xyz="0.883157 0.248684 0.397732"/>
+  <axis xyz="0.866706 0.264979 0.422618"/>
 </joint>
 
 </robot>
